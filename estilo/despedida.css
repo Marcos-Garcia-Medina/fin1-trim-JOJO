@@ -1,0 +1,67 @@
+/* FUENTES */
+@font-face{src:url('../tipografias/AllentownPersonalUse.ttf');
+    font-family:rotulo;
+}
+
+@font-face{src:url('../tipografias/texto.otf');
+    font-family:texto;
+}
+
+/* BODY */
+body { background-color: rgb(226, 248, 125);}
+
+/* CONTAINER */
+#container{ width: 90%;
+    margin: auto;
+}
+
+/* SECCION GRID */
+.grid-2 { display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.item-grid-2 {padding:20px;
+        font-size: 20px;
+}
+
+/* IMAGENES */
+#josukealegre {width:100%;}
+
+/* EN EL CONTAINER */
+#despedida {background-color: rgb(226, 248, 125);
+    color: rgb(255, 145, 0);}
+
+#despedida h1 {color: rgb(62, 74, 133);
+                font-size: 30px;
+                font-family: rotulo;
+                text-align: center;
+}
+
+#despedida p {font-size: 25px;
+            font-family: texto;
+            text-align: center;
+}
+
+/* FOOTER */
+#footer {background-color: rgb(225, 241, 152);
+}
+
+#footer h2 {text-align: center;
+            color: rgb(62, 74, 133);
+            font-family: rotulo;
+}
+
+#footer p {text-align: center;
+            padding-bottom: 10px;
+            font-family: texto;
+            color: rgb(62, 74, 133);
+}
+
+/* MEDIA QUERYS */
+@media only screen and (max-width:800px){
+    .grid-2 {grid-template-columns: 50% 50%;}
+}
+
+@media only screen and (max-width:600px){
+    .grid-2 {grid-template-columns: 100%;}
+}
